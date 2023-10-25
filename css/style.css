@@ -1,0 +1,591 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: #EEEEEE;
+}
+
+.tutorial {
+    width: 80%;
+    margin: 5% auto 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+
+}
+
+.tutorial ul {
+    display: inline;
+    font-size: 0;
+    list-style-type: none;
+}
+
+.tutorial ul li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+
+.tutorial ul li ul {
+    display: none;
+}
+
+.tutorial ul li:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+
+.tutorial ul li:hover ul {
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+    left: 0;
+    position: absolute;
+}
+
+.tutorial ul li:hover ul li {
+    display: block;
+    background-color: #e7e7e7;
+}
+
+
+
+.tutorial ul li:hover ul li:hover {
+    background-color: #e0e0e0;
+}
+
+#contents {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#main #contents div.m_con {
+    display: none;
+}
+
+#main #contents div.con {
+    position: relative;
+}
+
+#main #contents div.con div.visual {
+    float: left;
+    position: relative;
+    height: 647px;
+}
+
+#main #contents div.con div.visual div.vi_tt {
+    position: absolute;
+    top: 221px;
+    left: 122px;
+    z-index: 3;
+}
+
+#main #contents div.con div.visual div.vi_img {
+    position: relative;
+    width: 819px;
+    z-index: 1;
+}
+
+#main #contents div.con div.visual div.vi_img ul.vi_box {
+    display: block;
+    height: 647px;
+}
+
+#main #contents div.con div.visual div.vi_img ul.vi_box li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+#main #contents div.con div.visual div.vi_img ul.vi_box li.viimg01 {
+    width: 58vw;
+    height: 60vh;
+    background-color: #197dca;
+}
+
+
+
+#main #contents div.con div.comp {
+    margin-left: 2vw;
+    float: left;
+    position: relative;
+    width: 18vw;
+    height: 29vh;
+}
+
+#main #contents div.con div.back01 {
+    background: #333;
+}
+
+#main #contents div.con div.back02 {
+    background: #a89e8e;
+}
+
+#main #contents div.con .menu_tit img {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#main #contents div.con div.menu_tit h2.tit01 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+#main #contents div.con div.menu_tit h2.tit01 a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#main #contents div.con div.menu_tit h2.tit02 {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 1px;
+}
+
+#main #contents div.con div.menu_tit h2.tit02 a {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#main #contents div.con div.menu_tit h2.tit03 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#main #contents div.con div.menu_tit h2.tit03 a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#main #contents div.con div.menu_tit span a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#main #contents div.con div.menu_tit span a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+#main #contents div.con .menu_tit1 img {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#main #contents div.con .menu_tit1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+#main #contents div.con a.menu_tit2 {
+    background: url('../images/main/btn_down_off.gif') no-repeat 95% 22%;
+}
+
+#main #contents div.con a:hover.menu_tit2 {
+    background: url('../images/main/btn_down_on.gif') no-repeat 95% 22%;
+}
+
+#main #contents div.con .menu_tit1 span.tit01 {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px 0px 25px 40px;
+}
+
+#main #contents div.con .menu_tit1 span.tit02 {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 35px 0px 25px 40px;
+}
+
+#main #contents div.con .menu_tit1 a:hover.menu_tit1 span.tit01 {
+    text-decoration: underline;
+}
+
+#main #contents div.con .menu_tit1 span.tt01 {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 40px;
+}
+
+#main #contents div.con .menu_tit1 a:hover span.tt01 {
+    font-weight: blod;
+    text-decoration: none;
+}
+
+
+#main #contents div.con div.mar01 {
+    margin: 50px 0px 0px 40px;
+}
+
+#main #contents div.con div.mar02 {
+    margin: 35px 0px 0px 80px;
+}
+
+#main #contents div.con div.mar03 {
+    margin: 30px 0px 0px 40px
+}
+
+#main #contents div.con p.tt01 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#main #contents div.con p.tt02 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+
+#main #contents div.con div.nsol {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 290px;
+    height: 382px;
+    background: url("../images/main/p_bg02.gif") no-repeat;
+}
+
+#main #contents div.con div.nsol div#slider {
+    position: relative;
+    overflow: auto;
+    width: 290px;
+    height: 70%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#main #contents div.con div.nsol div#slider ul {
+    position: relative;
+}
+
+#main #contents div.con div.nsol div#slider li {
+    float: left;
+    width: 290px;
+}
+
+#main #contents div.con div.nsol div#slider li img {
+    width: 53%;
+}
+
+#main #contents div.con div.nsol div#slider li a {
+    font-size: 16px;
+    color: #333;
+    line-height: 50px;
+}
+
+#main #contents div.con div.nsol div#slider li a:hover {
+    font-weight: normal;
+}
+
+#main #contents div.con div.nsol div#vi_btn #pagination {
+    position: absolute;
+    width: 30px;
+    left: 50%;
+    margin-left: -15px;
+    bottom: 10px;
+}
+
+#main #contents div.con div.nsol div#vi_btn #pagination li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    line-height: 8px;
+    margin-right: 2px;
+    background: url('../images/main/new_poff.png') no-repeat;
+    cursor: pointer;
+}
+
+#main #contents div.con div.nsol div#vi_btn #pagination li:hover {
+    display: inline-bolck;
+    line-height: 8px;
+    width: 8px;
+    height: 8px;
+    background: url('../images/main/new_pon.png') no-repeat;
+}
+
+#main #contents div.con div.nsol div#vi_btn #pagination li.current {
+    display: inline-bolck;
+    line-height: 8px;
+    width: 8px;
+    height: 8px;
+    background: #197dca;
+
+}
+
+#main #contents div.con div.nsol div#vi_btn #pagination li input {
+    vertical-align: top;
+}
+
+#main #contents div.con div.noti {
+    position: absolute;
+    right: 0px;
+    top: 397px;
+    background: #fff;
+    width: 288px;
+    height: 203px;
+    border: 1px solid #dddcda;
+}
+
+#main #contents div.con div.margin_t {
+    margin-top: 15px;
+}
+
+#main #contents div.con a.more01 {
+    position: absolute;
+    top: 37px;
+    right: 25px;
+    color: #197dca;
+    font-size: 11px;
+}
+
+#main #contents div.con a.more02 {
+    position: absolute;
+    top: 37px;
+    right: 25px;
+    color: #e5581c;
+    font-size: 11px;
+}
+
+#main #contents div.con div.noti_tt {
+    position: relative;
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+#main #contents div.con div.noti_tt a:hover span.ntit {
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#main #contents div.con div.noti_tt a:hover span.ntt {
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#main #contents div.con div.noti_tt span.ntit {
+    font-size: 17px;
+    color: #333;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    line-height: 25px;
+}
+
+#main #contents div.con div.noti_tt span.ntt {
+    font-size: 13px;
+    color: #666;
+    display: inline-block;
+    text-align: left;
+    padding-top: 5px;
+    line-height: 20px;
+}
+
+#main #contents div.con div.pres {
+    position: absolute;
+    right: 0px;
+    top: 618px;
+    background: #fff no-repeat 30px 25px;
+    width: 288px;
+    height: 203px;
+    border: 1px solid #dddcda;
+}
+
+#main #contents div.con div.prof_tar {
+    display: none;
+}
+
+#main #contents div.con div.prof div.btn_d {
+    position: absolute;
+    right: 40px;
+    top: -7px;
+}
+
+#main #contents div.con div.prof div.btn_d a {
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background: #197dca no-repeat;
+}
+
+#main #contents div.con div.prof div.btn_d a:hover {
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background: #197dca no-repeat;
+}
+
+#main #contents div.con div.recr {
+    margin-top: 15px;
+    float: left;
+    position: relative;
+    width: 402px;
+    height: 160px;
+    background: #e5581c no-repeat;
+}
+
+#main #contents div.con div.prof {
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+    background: #afa697 no-repeat 40px 70px;
+    border: 1px solid #a89e8e;
+    width: 400px;
+    height: 158px;
+}
+
+#main #contents div.con div.global {
+    position: absolute;
+    right: 0px;
+    top: 397px;
+    width: 288px;
+    height: 248px;
+    border: 1px solid #dddcda;
+    background: #fff;
+}
+
+#main #contents div.con div.global .global_b {
+    padding: 30px 0px 0px 35px;
+}
+
+#main #contents div.con div.global .global_b li.gtit {
+    font-size: 20px;
+    color: #333;
+    display: inline-block;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+#main #contents div.con div.global .global_b img {
+    padding-bottom: 10px;
+}
+
+#main #contents div.con div.global .global_b li.gtt {
+    font-size: 15px;
+    color: #666;
+    line-height: 20px;
+}
+
+#main #contents div.con div.movie {
+    position: absolute;
+    right: 0px;
+    top: 662px;
+    width: 290px;
+    height: 260px;
+}
+
+#main #contents div.con div.movie .mtit {
+    position: relative;
+    z-index: 999;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    height: 37px;
+    background: #197dca repeat-x;
+    font-weight: bold;
+    width: 255px;
+    text-align: left;
+    line-height: 37px;
+    padding-left: 35px;
+}
+
+#main #contents div.con div.movie .mtit img {
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+#main #contents div.con div.movie .mbtn {
+    position: absolute;
+    z-index: 11;
+    left: 41%;
+    top: 26%;
+}
+
+#main #contents div.con div.movie .m_img {
+    position: relative;
+    margin-top: -37px;
+}
+
+#main #contents div.con div.movie .m_img img.maptt {
+    position: absolute;
+    z-index: 10;
+}
+
+#main #contents div.con div.movie .m_img img.mdark {
+    position: absolute;
+    z-index: 9;
+}
+
+#main #contents div.con div.movie .m_img img.movie_img {
+    position: absolute;
+    z-index: 8;
+}
+
+#main #contents div.con div.cont {
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+    background: #868179;
+    border: 1px solid #7c776e;
+    width: 288px;
+    height: 158px;
+}
+
+#main #contents div.con div.cont .cont_tt {
+    display: none;
+}
+
+#main #contents div.con div.cont .cont_tt1 {
+    display: none;
+}
+
+#main #contents div.con div.cont .cont_pt {
+    padding-top: 15px;
+}
+
+#main #contents div.con div.cont .cont_pt1 {
+    padding-top: -5px;
+}
